@@ -1,0 +1,10 @@
+.Profile {
+    position: absolute;
+    right: 0;
+    padding: 300px 150px 40px 40px;
+}
+
+.Profile img {
+    width: 900px;
+    height: auto;
+}

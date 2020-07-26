@@ -5,7 +5,7 @@ function ProjectApp(props) {
     return (
         <div className="Project">
             <a href={props.projecturl}>
-                <img src={props.image} alt={props.title + " image"} width="600" height="400"/>
+                <img src={props.image} alt={props.title + " image"}/>
                 {/*    image width and height can be set within the css */}
             </a>
             <div className="Description">{props.title}</div>

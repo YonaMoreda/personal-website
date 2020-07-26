@@ -15,14 +15,20 @@
 /*}*/
 
 .App-header {
-    background-color: #282c34;
+    /*background-color: #282c34;*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*font-size: calc(10px + 2vmin);*/
+
+    background: linear-gradient(to right, #282c34 50%, darkgrey 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 2s ease;
     color: white;
+}
+
+.App-header:hover{
+    background-position: left bottom;
 }
 
 .App-link {
@@ -51,11 +57,7 @@
     padding-bottom: 100px;
 }
 
-/*.Profile {*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    padding: 300px 40px 40px;*/
-/*}*/
+
 
 /*@keyframes App-logo-spin {*/
 /*  from {*/
