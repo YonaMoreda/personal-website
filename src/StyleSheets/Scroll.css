@@ -1,0 +1,26 @@
+.Scroll {
+    text-align: center;
+}
+
+.Scroll{
+    font-size: medium;
+    transition: font-size 2s;
+}
+
+.Scroll:hover{
+    font-size: x-large;
+}
+
+.Scroll div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+div button {
+    padding: 16px;
+    background-color: #282c34;
+    color: white;
+    width: 100%;
+    border: #282c34;
+}

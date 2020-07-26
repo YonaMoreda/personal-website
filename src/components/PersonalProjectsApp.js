@@ -7,7 +7,7 @@ function PersonalProjectsApp() {
     return (
         <div className="PersonalProjects">
             <h3>My Personal Projects</h3>
-            __________
+            <span>__________</span>
             <p>These are few of personal projects I have worked on over time.</p>
             <ProjectApp title="Power Tasks Scheduler"
                         projecturl="https://github.com/YonaMoreda/javafx-power-tasks-scheduler" image={javafx_image}/>

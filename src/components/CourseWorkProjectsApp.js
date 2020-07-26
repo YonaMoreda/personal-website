@@ -8,7 +8,7 @@ function CourseWorkProjectsApp() {
     return (
         <div className="CourseWorkProjects">
             <h3>Course Work Projects</h3>
-            __________
+            <span>__________</span>
             <p>These are some of the projects I (and other collaborators) worked on while I pursuing my degree in Computing Science.</p>
             {/* todo:: mention there are several collaborators */}
             <ProjectApp title="JavaFX OrientDB visualization tool (Joint)"

@@ -12,7 +12,6 @@ function SummaryApp() {
                 I am passionate about developing software for desktop or mobile applications. You can find some of the
                 projects I worked on personally and also some course work related projects below.
             </p>
-            <h1>↓</h1>
         </div>
     );
 }
