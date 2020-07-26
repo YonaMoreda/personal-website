@@ -1,0 +1,22 @@
+.Project{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.Project:hover{
+    border: 1px solid #777;
+}
+
+.Project img{
+    width: 100%;
+    height: auto;
+}
+
+.Project .Description{
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+    color: lightblue;
+}
