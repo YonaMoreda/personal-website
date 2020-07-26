@@ -5,6 +5,15 @@
 
 .Contacts a{
    color: white;
+   transition: all .4s;
+}
+
+.Contacts a:hover{
+   background-color: #CDB599FF;
+   color: black;
+   text-underline-mode: false;
+   text-decoration: none;
+   padding: 0.1%;
 }
 
 .Contacts h2{

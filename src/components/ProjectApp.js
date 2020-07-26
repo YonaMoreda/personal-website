@@ -4,7 +4,8 @@ import '../StyleSheets/Project.css'
 function ProjectApp(props) {
     return (
         <div className="Project">
-            <a href={props.projecturl}>
+            {/* eslint-disable-next-line react/jsx-no-target-blank */}
+            <a target='_blank' href={props.projecturl}>
                 <img src={props.image} alt={props.title + " image"}/>
                 {/*    image width and height can be set within the css */}
             </a>

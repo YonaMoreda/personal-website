@@ -7,9 +7,9 @@ import web_eng_image from "../images/web-eng-screenshot.jpg"
 function CourseWorkProjectsApp() {
     return (
         <div className="CourseWorkProjects">
-            <h4>Course Work Projects</h4>
-            <p>These are some of the projects I (and other collaborators) worked on while I was studying
-            to get my degree in Computing Science.</p>
+            <h3>Course Work Projects</h3>
+            __________
+            <p>These are some of the projects I (and other collaborators) worked on while I pursuing my degree in Computing Science.</p>
             {/* todo:: mention there are several collaborators */}
             <ProjectApp title="JavaFX OrientDB visualization tool (Joint)"
                         projecturl="https://github.com/YonaMoreda/OrientDBVisualizationTool" image={orientdb_image}/>

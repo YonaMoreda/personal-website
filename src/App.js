@@ -12,8 +12,10 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <SummaryApp/>
-                <ProfileApp/>
+                <table>
+                    <tr><td><SummaryApp/></td><td><ProfileApp/></td></tr>
+                </table>
+
                 <PersonalProjectsApp/>
                 <CourseWorkProjectsApp/>
                 <ContactsApp/>

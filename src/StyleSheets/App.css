@@ -15,14 +15,10 @@
 /*}*/
 
 .App-header {
-    /*background-color: #282c34;*/
+    background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-    background: linear-gradient(to right, #282c34 50%, darkgrey 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
     transition: all 2s ease;
     color: white;
 }
@@ -36,20 +32,25 @@
 }
 
 .Summary {
-    padding-left: 140px;
-    padding-top: 140px;
-    padding-bottom: 240px;
+    padding-left: 40%;
+    /*padding-left: 140px;*/
+    padding-top: 70%;
+    padding-bottom: 100%;
     width: 350px;
 }
 
 .PersonalProjects {
-    padding-top: 140px;
+    padding-top: 7%;
     padding-left: 140px;
+    background-color: #CDB599FF;
+    color: black;
 }
 
 .CourseWorkProjects {
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     padding-left: 140px;
+    background-color: #CDB599FF;
+    color: black;
 }
 
 .Contacts {
