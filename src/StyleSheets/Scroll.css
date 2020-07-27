@@ -1,5 +1,6 @@
 .Scroll {
     text-align: center;
+    /*background-color: #db083d;*/
 }
 
 .Scroll{
@@ -12,15 +13,27 @@
 }
 
 .Scroll div {
-    padding-bottom: 10px;
+    padding-bottom: 2.1%;
     padding-top: 10px;
 }
 
-
-div button {
-    padding: 16px;
+#firstScroll {
     background-color: #282c34;
-    color: white;
-    width: 100%;
-    border: #282c34;
 }
+
+#secondScroll {
+    background-color: #CDB599FF;
+    color: black;
+}
+
+#thirdScroll {
+    background-color: #282c34;
+}
+
+/*div button {*/
+/*    padding: 16px;*/
+/*    background-color: #282c34;*/
+/*    color: white;*/
+/*    width: 100%;*/
+/*    border: #282c34;*/
+/*}*/

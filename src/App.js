@@ -6,7 +6,7 @@ import ContactsApp from "./components/ContactsApp";
 import './StyleSheets/App.css';
 import FooterApp from "./components/FooterApp";
 import ProfileApp from "./components/ProfileApp";
-import ScrollDemo from "./components/ScrollApp";
+import ScrollApp from "./components/ScrollApp";
 import SkillApp from "./components/SkillsApp";
 
 
@@ -21,12 +21,12 @@ function App() {
                         <td><ProfileApp/></td>
                     </tr>
                 </table>
-                <ScrollDemo/>
+                <ScrollApp id={"firstScroll"}/>
                 <PersonalProjectsApp/>
                 <CourseWorkProjectsApp/>
-                <ScrollDemo/>
+                <ScrollApp id={"secondScroll"}/>
                 <SkillApp/>
-                <ScrollDemo/>
+                {/*<ScrollApp id={"thirdScroll"}/>*/}
                 <ContactsApp/>
                 <FooterApp/>
             </header>

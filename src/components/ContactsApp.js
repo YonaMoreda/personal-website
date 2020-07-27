@@ -13,7 +13,7 @@ function ContactsApp() {
             <a target="_blank" href="https://github.com/YonaMoreda">@YonaMoreda</a>
             <h4>E-Mail</h4>
             {/* eslint-disable-next-line react/jsx-no-target-blank */}
-            <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">yokoti1999@gmail.com</a>
+            <a target="_blank" href="mailto:yokots3q@gmail.com">yokots3q@gmail.com</a>
         </div>
     );
 }

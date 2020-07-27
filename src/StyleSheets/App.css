@@ -32,15 +32,16 @@
 }
 
 .Summary {
-    padding-left: 40%;
+    padding-left: 30%;
     /*padding-left: 140px;*/
-    padding-top: 70%;
-    padding-bottom: 80%;
-    width: 350px;
+    margin-top: 50%;
+    margin-bottom: 40%;
+    width: 60%;
+    /*width: 350px;*/
 }
 
 .PersonalProjects {
-    padding-top: 7%;
+    padding-top: 5%;
     padding-left: 140px;
     background-color: #CDB599FF;
     color: black;

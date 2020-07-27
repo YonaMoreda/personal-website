@@ -7,7 +7,7 @@ import web_eng_image from "../images/web-eng-screenshot.jpg"
 function CourseWorkProjectsApp() {
     return (
         <div className="CourseWorkProjects">
-            <h3>Course Work Projects</h3>
+            <h2>Course Work Projects</h2>
             <span>__________</span>
             <p>These are some of the projects I (and other collaborators) worked on while I pursuing my degree in Computing Science.</p>
             {/* todo:: mention there are several collaborators */}

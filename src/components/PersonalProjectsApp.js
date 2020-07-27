@@ -6,7 +6,7 @@ import website_image from '../images/this-website-screenshot.jpg'
 function PersonalProjectsApp() {
     return (
         <div className="PersonalProjects">
-            <h3>My Personal Projects</h3>
+            <h2>My Personal Projects</h2>
             <span>__________</span>
             <p>These are few of personal projects I have worked on over time.</p>
             <ProjectApp title="Power Tasks Scheduler"
