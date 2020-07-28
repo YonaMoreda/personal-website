@@ -1,6 +1,6 @@
 .Footer {
     text-align: center;
-    background-color: #0a0e16;
+    background-image: linear-gradient(#1e222a, #282828);
     padding-top: 25px;
     padding-bottom: 35px;
     font-size: 15px;
@@ -8,14 +8,13 @@
 }
 
 .Footer a {
-    color: white;
+    color: darkslategrey;
     text-decoration: none;
-    transition: all .4s;
+    transition: all 1s;
 }
 
 .Footer a:hover {
-    background-color: #CDB599FF;
-    color: black;
-    text-underline-mode: false;
-    padding: 0.2% 0.5%;
+    color: whitesmoke;
+    background-image: linear-gradient(white, #4c3f2d);
+    padding-top: 1%;
 }

@@ -1,6 +1,9 @@
 .Contacts{
    background-color: #1e222a;
    padding-top: 30px;
+   border-width: 1px;
+   border-style: groove none groove none;
+   border-color: darkslategrey;
 }
 
 .Contacts a{
@@ -9,11 +12,11 @@
 }
 
 .Contacts a:hover{
-   background-color: #CDB599FF;
+   background-image: linear-gradient(white, #4c3f2d);
    color: black;
    text-underline-mode: false;
    text-decoration: none;
-   padding: 0.1%;
+   padding: 0.1% 0.1% 0.1% 0.2%;
 }
 
 .Contacts h2{
