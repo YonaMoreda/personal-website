@@ -13,4 +13,9 @@
 
 .BarGraph {
     border: 1px ridge #cdb599;
+    transition: transform 1s;
+}
+
+.BarGraph:hover {
+    transform: scale(1.1);
 }

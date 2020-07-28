@@ -25,17 +25,17 @@
 }
 
 .PersonalProjects {
+    color: darkgrey;
     padding-top: 5%;
     padding-left: 140px;
     background-image: linear-gradient(#282c34, darkslategrey);
-    color: black;
 }
 
 .CourseWorkProjects {
+    color: darkgrey;
     padding-left: 140px;
     background-image: linear-gradient(darkslategrey, #0C0032);
     /*background-image: linear-gradient(darkslategrey, #0C0032);*/
-    color: black;
 }
 
 .Contacts {
