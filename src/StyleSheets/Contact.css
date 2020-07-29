@@ -1,28 +1,52 @@
-.Contacts{
-   background-color: #1e222a;
-   padding-top: 30px;
-   border-width: 1px;
-   border-style: groove none groove none;
-   border-color: darkslategrey;
+.Contacts {
+    background-color: #1e222a;
+    padding-top: 1.6%;
+    padding-left: 7.4%;
+    padding-bottom: 4%;
+    border-width: 1px;
+    border-style: groove none groove none;
+    border-color: darkslategrey;
+    color: whitesmoke;
 }
 
-.Contacts a{
-   color: white;
-   transition: all .4s;
+.Contacts a {
+    color: gray;
+    transition: all .4s;
 }
 
-.Contacts a:hover{
-   background-image: linear-gradient(#1e222a, #4c3f2d);
-   color: whitesmoke;
-   text-underline-mode: false;
-   text-decoration: none;
-   padding: 0.1% 0.1% 0.1% 0.2%;
+.Contacts a:hover {
+    background-image: linear-gradient(#1e222a, darkslategrey);
+    color: whitesmoke;
+    text-underline-mode: false;
+    text-decoration: none;
+    padding: 0.1% 0.1% 0.1% 2%;
 }
 
-.Contacts h2{
-   color: white;
+.Contacts table {
+    text-align: left;
+    width: 60%;
+    border-collapse: collapse;
 }
 
-.Contacts h4{
-   color: white;
+.Contacts td, th {
+    padding: 1% 2%;
+    border: 1px solid #323232;
+}
+
+
+table tr:first-child td, th {
+    border-top: 0;
+}
+
+table tr td:first-child, th {
+    border-left: 0;
+}
+
+.Contacts table tr:last-child td, th {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.Contacts table tr td:last-child, th:last-child {
+    border-right: 0;
 }
