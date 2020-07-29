@@ -6,6 +6,7 @@ function SkillApp() {
     return (
         <div className="Skill">
             <table>
+                <tbody>
                 <tr>
                     <td>
                         <BarApp/>
@@ -28,6 +29,7 @@ function SkillApp() {
                         </div>
                     </td>
                 </tr>
+                </tbody>
             </table>
         </div>
     );

@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react';
+
+import 'react-slideshow-image/dist/styles.css'
 import '../StyleSheets/Project.css'
+
 
 function ProjectApp(props) {
     return (
-        <div className="Project">
-            {/* eslint-disable-next-line react/jsx-no-target-blank */}
-            <a target='_blank' href={props.projecturl}>
-                <img src={props.image} alt={props.title + " image"}/>
-                {/*    image width and height can be set within the css */}
-            </a>
-            <div className="Description">{props.title}</div>
+        <div className="each-slide">
+          <div style={{'backgroundImage': `url(${props.image})`}}>
+              {/* eslint-disable-next-line react/jsx-no-target-blank */}
+            <a href={props.projecturl} target="_blank">{props.title}</a>
+          </div>
         </div>
     );
 }

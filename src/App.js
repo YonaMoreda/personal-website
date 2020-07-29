@@ -16,10 +16,12 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <table>
+                    <tbody>
                     <tr>
                         <td><SummaryApp/></td>
                         <td><ProfileApp/></td>
                     </tr>
+                    </tbody>
                 </table>
                 <ScrollApp id={"firstScroll"}/>
                 <PersonalProjectsApp/>

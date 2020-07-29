@@ -1,23 +1,50 @@
-.Project{
-    float: left;
-    width: 300px;
-    margin: 5px 5px 60px;
-    transition: transform .4s;
+.react-slideshow-wrapper {
+    width: 30%;
 }
 
-.Project:hover{
-    border: 1px solid #777;
-    transform: scale(1.1);
-}
-
-.Project img{
-    width: 300px;
-    height: 200px;
-}
-
-.Project .Description{
-    padding: 15px;
+h3 {
     text-align: center;
-    font-size: medium;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 540px;
+}
+
+.each-slide a {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: left;
+    text-decoration: none;
     color: darkgrey;
 }
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+
+}
+
+.each-fade .image-container img {
+    width: 100%;
+}
+
+.each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}
+

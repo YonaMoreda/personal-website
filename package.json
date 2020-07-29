@@ -12,6 +12,7 @@
     "react-dom": "^16.13.1",
     "react-dynamic-charts": "^1.0.5",
     "react-scripts": "3.4.1",
+    "react-slideshow-image": "^3.0.2",
     "yarn": "^1.22.4"
   },
   "scripts": {

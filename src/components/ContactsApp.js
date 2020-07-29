@@ -4,15 +4,16 @@ import '../StyleSheets/Contact.css'
 function ContactsApp() {
     return (
         <div className="Contacts">
-
-
             <h2>Contact Me</h2>
             <table>
+                <thead>
                 <tr>
-                    <th>Linkedin</th>
-                    <th>Github</th>
-                    <th>E-Mail</th>
+                    <td>Linkedin</td>
+                    <td>Github</td>
+                    <td>E-Mail</td>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>
                         {/* eslint-disable-next-line react/jsx-no-target-blank */}
@@ -27,6 +28,7 @@ function ContactsApp() {
                         <a target="_blank" href="mailto:yokots3q@gmail.com">yokots3q@gmail.com</a>
                     </td>
                 </tr>
+                </tbody>
             </table>
         </div>
     );
