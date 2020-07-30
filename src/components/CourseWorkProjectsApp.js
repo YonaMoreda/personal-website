@@ -20,7 +20,7 @@ function CourseWorkProjectsApp() {
         <div className="CourseWorkProjects">
             <h2>Course Work Projects</h2>
             <p>__________</p>
-            <p>These are some of the projects I (and other collaborators) worked on while I pursuing my degree in
+            <p>These are some of the projects I (and other collaborators) worked on while I was pursuing my degree in
                 Computing Science.</p>
             {/* todo:: mention there are several collaborators */}
             <Slide {...properties}>
