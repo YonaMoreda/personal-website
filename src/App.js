@@ -9,20 +9,15 @@ import ProfileApp from "./components/ProfileApp";
 import ScrollApp from "./components/ScrollApp";
 import SkillApp from "./components/SkillsApp";
 
-
 //Driver app
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <table>
-                    <tbody>
-                    <tr>
-                        <td><SummaryApp/></td>
-                        <td><ProfileApp/></td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div className="Summary-Container">
+                    <SummaryApp/>
+                    <ProfileApp/>
+                </div>
                 <ScrollApp id={"firstScroll"}/>
                 <PersonalProjectsApp/>
                 <CourseWorkProjectsApp/>
