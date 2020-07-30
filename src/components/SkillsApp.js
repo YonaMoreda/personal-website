@@ -18,7 +18,7 @@ function SkillApp() {
                     <dd>- SQL (PostgreSQL) and more ...</dd>
                     <dt>Industry Related</dt>
                     <dd>- Scrum x Agile Methodologies</dd>
-                    <dd>- Version control (GitHub) and more ...</dd>
+                    <dd>- Version control (Git) and more ...</dd>
                 </dl>
             </div>
         </div>
