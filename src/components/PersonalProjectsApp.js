@@ -2,6 +2,7 @@ import React from "react";
 import ProjectApp from "./ProjectApp";
 import javafx_image from '../images/demo-screenshot.jpg'
 import website_image from '../images/this-website-screenshot.jpg'
+import command_scehduling_image from '../images/simple-command-scheduling.jpg'
 import {Slide} from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
 
@@ -22,6 +23,8 @@ function PersonalProjectsApp() {
                 <ProjectApp title="Power Tasks Scheduler"
                             projecturl="https://github.com/YonaMoreda/javafx-power-tasks-scheduler"
                             image={javafx_image}/>
+                <ProjectApp title="Simple Command Scheduling" projecturl="https://github.com/YonaMoreda/simple-command-scheduling"
+                            image={command_scehduling_image}/>
                 <ProjectApp title="Personal Website" projecturl="https://github.com/YonaMoreda/personal-website"
                             image={website_image}/>
             </Slide>
