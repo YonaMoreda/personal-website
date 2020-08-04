@@ -1,0 +1,44 @@
+
+.WhyMe-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    padding-left: 15%;
+    background-image: linear-gradient(#282c34, #182a50, #282c34);
+}
+
+.WhyMe {
+    padding-right: 10%;
+    width: 500px;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+}
+
+.Profile-Image img {
+    width: 65%;
+    height: auto;
+    transition: transform 2s;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
+}
+
+.Profile-Image img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(10%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

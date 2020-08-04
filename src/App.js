@@ -8,6 +8,7 @@ import FooterApp from "./components/FooterApp";
 import ProfileApp from "./components/ProfileApp";
 import ScrollApp from "./components/ScrollApp";
 import SkillApp from "./components/SkillsApp";
+import WhyMeApp from "./components/WhyMeApp";
 
 //Driver app
 function App() {
@@ -18,6 +19,8 @@ function App() {
                     <SummaryApp/>
                     <ProfileApp/>
                 </div>
+                <ScrollApp id={"firstScroll"}/>
+                <WhyMeApp/>
                 <ScrollApp id={"firstScroll"}/>
                 <PersonalProjectsApp/>
                 <CourseWorkProjectsApp/>

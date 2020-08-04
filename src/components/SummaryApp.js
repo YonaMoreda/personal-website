@@ -13,8 +13,9 @@ function SummaryApp() {
                 I have attained my degree within 3 years, with a final cumulative GPA of 8.1.
             </p>
             <p>
-                I am passionate about developing software for desktop or mobile applications. You can find some of
-                the projects I worked on personally and also some course work related projects below.
+                I am passionate about developing software for desktop or mobile applications. I also find it interesting
+                to work with web applications and have project experience with both back end and front end web
+                frameworks (discussed below).
             </p>
         </div>
     );
