@@ -4,7 +4,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 15%;
-
     background-image: linear-gradient(#282c34, #182a50, #282c34);
 }
 
@@ -17,7 +16,8 @@
 
 .Profile-Image{
     padding-top: 10%;
-    padding-right: 15%;
+    padding-right: 10%;
+    width: 30%;
 }
 
 .Profile-Image img {
