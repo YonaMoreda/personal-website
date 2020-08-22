@@ -4,6 +4,7 @@ import javafx_image from '../images/demo-screenshot.jpg'
 import website_image from '../images/this-website-screenshot.jpg'
 import command_scehduling_image from '../images/simple-command-scheduling.jpg'
 import sudoku_image from '../images/sudoku-screenshot.jpg'
+import snake_image from '../images/snake-screenshot.jpg'
 import {Slide} from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
 
@@ -50,6 +51,18 @@ function PersonalProjectsApp() {
                                 "JUnit testing for testing the solver / validator",
                                 "View grid composed of a structured JavaFX GridPane blocks",
                                 "Custom FXML based dialogue box for displaying About/Help section"]}/>
+                <ProjectApp title="Snake"
+                            projecturl="https://github.com/YonaMoreda/snake"
+                            image={snake_image}
+                            description={"A simple standard game of Snake"}
+                            whatitcontains={["Built with MVC design pattern",
+                                "Model component is developed separate from View, minimal cohesion",
+                                "Made utilizing pre-existing javaFX layout elements",
+                                "Standard elements such as Start / Game Over screen",
+                                "Simple / Extensible design"
+                            ]}/>
+
+
                 <ProjectApp title="Personal Website" projecturl="https://github.com/YonaMoreda/personal-website"
                             image={website_image}
                             description={"Personal website made with React.js"}
