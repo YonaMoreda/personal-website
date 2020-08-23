@@ -5,6 +5,7 @@ import website_image from '../images/this-website-screenshot.jpg'
 import command_scehduling_image from '../images/simple-command-scheduling.jpg'
 import sudoku_image from '../images/sudoku-screenshot.jpg'
 import snake_image from '../images/snake-screenshot.jpg'
+import chat_image from '../images/chatbot-screenshot.jpg'
 import {Slide} from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
 
@@ -61,7 +62,14 @@ function PersonalProjectsApp() {
                                 "Standard elements such as Start / Game Over screen",
                                 "Simple / Extensible design"
                             ]}/>
-
+                <ProjectApp title="Chatbot for Telegram messenger"
+                            projecturl="https://github.com/YonaMoreda/telegram-chat-bot"
+                            image={chat_image}
+                            description={"A simple Chatbot that made by redirecting messages from/to telegram to/from Cleverbot."}
+                            whatitcontains={["Utilizing pre-existing libraries",
+                                "Clean and extensible code with documentation",
+                                "Virtual environment + pip for managing requirements and straightforward installation"
+                            ]}/>
 
                 <ProjectApp title="Personal Website" projecturl="https://github.com/YonaMoreda/personal-website"
                             image={website_image}
