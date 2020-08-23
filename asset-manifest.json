@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.0c92483e.chunk.css",
-    "main.js": "/personal-website/static/js/main.189437dc.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.189437dc.chunk.js.map",
+    "main.js": "/personal-website/static/js/main.a4243f13.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.a4243f13.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.3731dab7.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.3731dab7.js.map",
     "static/css/2.f31467a9.chunk.css": "/personal-website/static/css/2.f31467a9.chunk.css",
-    "static/js/2.22b6cde1.chunk.js": "/personal-website/static/js/2.22b6cde1.chunk.js",
-    "static/js/2.22b6cde1.chunk.js.map": "/personal-website/static/js/2.22b6cde1.chunk.js.map",
+    "static/js/2.2d3921c9.chunk.js": "/personal-website/static/js/2.2d3921c9.chunk.js",
+    "static/js/2.2d3921c9.chunk.js.map": "/personal-website/static/js/2.2d3921c9.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "precache-manifest.96f3c4be998b7b73f56b71bf478e66ab.js": "/personal-website/precache-manifest.96f3c4be998b7b73f56b71bf478e66ab.js",
+    "precache-manifest.bb79a8653619949fa2fae56898cc5626.js": "/personal-website/precache-manifest.bb79a8653619949fa2fae56898cc5626.js",
     "service-worker.js": "/personal-website/service-worker.js",
     "static/css/2.f31467a9.chunk.css.map": "/personal-website/static/css/2.f31467a9.chunk.css.map",
     "static/css/main.0c92483e.chunk.css.map": "/personal-website/static/css/main.0c92483e.chunk.css.map",
-    "static/js/2.22b6cde1.chunk.js.LICENSE.txt": "/personal-website/static/js/2.22b6cde1.chunk.js.LICENSE.txt",
+    "static/js/2.2d3921c9.chunk.js.LICENSE.txt": "/personal-website/static/js/2.2d3921c9.chunk.js.LICENSE.txt",
+    "static/media/chatbot-screenshot.jpg": "/personal-website/static/media/chatbot-screenshot.ac76ac06.jpg",
     "static/media/demo-screenshot.jpg": "/personal-website/static/media/demo-screenshot.80ade12a.jpg",
     "static/media/me-part-2.jpg": "/personal-website/static/media/me-part-2.2abd59c4.jpg",
     "static/media/me-part-3.jpg": "/personal-website/static/media/me-part-3.e410caa9.jpg",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.3731dab7.js",
     "static/css/2.f31467a9.chunk.css",
-    "static/js/2.22b6cde1.chunk.js",
+    "static/js/2.2d3921c9.chunk.js",
     "static/css/main.0c92483e.chunk.css",
-    "static/js/main.189437dc.chunk.js"
+    "static/js/main.a4243f13.chunk.js"
   ]
 }
