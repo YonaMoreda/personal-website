@@ -6,6 +6,7 @@ import command_scehduling_image from '../images/simple-command-scheduling.jpg'
 import sudoku_image from '../images/sudoku-screenshot.jpg'
 import snake_image from '../images/snake-screenshot.jpg'
 import chat_image from '../images/chatbot-screenshot.jpg'
+import raycast_image from '../images/raycasting-screenshot.jpg'
 import {Slide} from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
 
@@ -61,6 +62,17 @@ function PersonalProjectsApp() {
                                 "Made utilizing pre-existing javaFX layout elements",
                                 "Standard elements such as Start / Game Over screen",
                                 "Simple / Extensible design"
+                            ]}/>
+
+                <ProjectApp title="Ray casting game"
+                            projecturl="https://github.com/YonaMoreda/JavaFX-raycasting"
+                            image={raycast_image}
+                            description={"A simple ray casting program with a 2.5D area."}
+                            whatitcontains={[
+                                "2.5D navigable area",
+                                "Features arbitrarily sized boundary walls",
+                                "Ray-Rectangle intersection",
+                                "Rectangle Axis aligned collision"
                             ]}/>
                 <ProjectApp title="Chatbot for Telegram messenger"
                             projecturl="https://github.com/YonaMoreda/telegram-chat-bot"
