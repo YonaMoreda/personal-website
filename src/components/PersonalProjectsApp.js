@@ -67,7 +67,7 @@ function PersonalProjectsApp() {
                 <ProjectApp title="Ray casting game"
                             projecturl="https://github.com/YonaMoreda/JavaFX-raycasting"
                             image={raycast_image}
-                            description={"A simple ray casting program with a 2.5D area."}
+                            description={"A simple ray casting program."}
                             whatitcontains={[
                                 "2.5D navigable area",
                                 "Features arbitrarily sized boundary walls",
