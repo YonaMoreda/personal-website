@@ -45,7 +45,7 @@ function CourseWorkProjectsApp() {
                                 "Interface from Python to MATLAB algorithm",
                                 "Bootstrap styling"]}
                 />
-                <ProjectApp title="Flask/React - Mock music servicing website (Joint)" projecturl=""
+                <ProjectApp title="Flask/React - Mock music servicing website (Joint)" projecturl="https://github.com/YonaMoreda/WEB_ENG_2019"
                             image={web_eng_image}
                             description={"Full-stack (Python Flask and React.js) mock music store project. Project consisted of " +
                             "two students, we self-taught the full technology stack and completed the project for the course: Web Engineering."}
